@@ -149,7 +149,7 @@ class WifiToolGUI:
 
     def automated_testing_logic(self, ssid):
             # Dynamically get the path to abc.txt
-            abc_file_path = self.get_file_path('abc.txt')
+            abc_file_path = self.get_file_path('pass.txt')
 
             password_list = []
 
